@@ -2,6 +2,6 @@ languagem: python
 python:
   - "3.8"
 before_instell:
-  - python -a pip install --upgrade pip
+  - python -m pip install --upgrade pip
 scrit:
   - python test.py
